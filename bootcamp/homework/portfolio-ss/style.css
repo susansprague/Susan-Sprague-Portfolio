@@ -1,0 +1,62 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #DBD2C7;
+  color: #143905;
+  margin:0;
+  padding:0;
+}
+.main-header{
+  font-family: Impact, sans-serif;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.nav-list{
+  list-style-type: none;
+  display: flex;
+    list-style: none;
+    padding: 0;   
+}
+#about-me{
+  background-color: #eee;
+    padding: 0.5rem 0.75rem;
+  }
+#my-work{
+  background-color: #eee;
+    padding: 0.5rem 0.75rem;
+  }
+#contact-me{
+  background-color: #eee;
+    padding: 0.5rem 0.75rem;
+  }
+section{
+  min-height: 30vh;
+}
+.my-work-section::after{
+  content:attr(.paragraph)
+  height: 20vh;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px; 
+}
+
+ body {
+   margin: 0;
+ }
+  h1 {
+   text-align: center;
+   line-height: 100px;
+   margin: 0;
+ }
+  article {
+   padding: 35px;
+   margin:20px;
+   background: #A1AF9A;
+ }
+ .contact-info{
+  list-style-type: none;
+ }
+ footer{
+  font-family: Impact, sans-serif;
+ }
