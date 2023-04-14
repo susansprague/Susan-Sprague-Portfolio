@@ -7,9 +7,9 @@ padding:0;
 .main-header {
 font-family: Impact, sans-serif;
 display: flex;
-justify-content: center;
+justify-content:left;
 flex-direction: row;
-align-items: flex-end;
+margin: 10px;
 height: 100px;
 letter-spacing: 1px;
 }
@@ -21,7 +21,7 @@ margin-block-end: 1em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 padding-inline-start: 40px;
- }
+}
 section{
 display: flex;
 font-family: Arial, sans-serif;
@@ -69,10 +69,6 @@ background-color: #52796F;
 border:#52796F;
 padding: 14px 40px;
 }
-.header-image {
-  background-image: 
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  background-size: cover;
+footer{
+  margin:10px;
 }
