@@ -12,11 +12,7 @@ body{
   align-items: flex-end;
   height: 100px;
 }
-.nav-list {
-  display: flex;
-  list-style: none;
-  padding: 0px;
-}
+
  ul {
   display: block;
   list-style-type: disc;
@@ -25,10 +21,12 @@ body{
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+ 
 }
 section{
-  min-height: 30vh;
-  font-family: Arial, sans-serif;
+display: flex;
+font-family: Arial, sans-serif;
+flex-direction: column;
 }
 h1 {
 text-align: center;
@@ -41,4 +39,32 @@ article {
 padding: 10px;
 margin: 10px;
 background:#D4E3D1 ;
+}
+.contact-info{
+  text-decoration-style: none;
+}
+section {
+display: flex;
+}
+article {
+flex: 1 200px;
+}
+
+article:nth-of-type(3) {
+flex: 3 200px;
+display: flex;
+flex-flow: column;
+}
+article:nth-of-type(3) div:first-child {
+flex: 1 100px;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+justify-content: space-around;
+}
+button {
+flex: 1 auto;
+margin: 5px;
+font-size: 18px;
+line-height: 1.5;
 }
