@@ -1,15 +1,29 @@
 body{
-  background-color: black;
-  color:white;
+  background-color: #EEE6D2;
+  color:#4E684A;
   margin:0;
   padding:0;
 }
-.main-header{
-  display:flex;
+.main-header {
+  font-family: Impact, sans-serif;
+  display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
 }
-.nav-list{
-  list-style-type: none;
+<style>.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+ ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 section{
   min-height: 30vh;
