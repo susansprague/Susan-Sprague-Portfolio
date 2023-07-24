@@ -15,7 +15,6 @@ letter-spacing: 1px;
 }
 ul {
 display: block;
-list-style-type: disc;
 margin-block-start: 1em;
 margin-block-end: 1em;
 margin-inline-start: 0px;
@@ -37,6 +36,7 @@ article {
 padding: 10px;
 margin: 10px;
 background: #84A98C;
+list-style-type: none;
 }
 .contact-info{
 text-decoration-style: none;
@@ -70,5 +70,5 @@ border:#52796F;
 padding: 14px 40px;
 }
 footer{
-  margin:10px;
+margin:10px;
 }
